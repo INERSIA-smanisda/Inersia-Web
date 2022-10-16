@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.links {
+    list-style: none;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.links a {
+    text-decoration: none;
+    padding-right: 25px;
+    transition: all 0.3s ease 0s;
+}
+
+.links a:hover {
+    color: blue;
+}
+
+.profile {
+    margin-top: 50px;
+}
+.profile h3 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+.profile span {
+    color: red;
+}
+
+.profile p {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.video {
+    width: 519px;
+    height: 256px;
+    background-color: gray;
+}
+.accordion-button {
+    background: #30B4FF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    color: white;
+    width: 500px;
+}
+.accordion-body {
+    width: 500px;
+    font-size: 14px;
+}
+.accordion-item {
+    padding-top: 5px;
+    border-radius: 20px;
+}
+.DaffaK h3 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 140px;
+    font-size: 26px;
+    font-weight: bolder;
+}
+.bio {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+.bio img {
+    width: 330px;
+    height: 354px;
+    border-radius: 16px;
+}
+.intro {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+
+.proker{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 140px;
+}
+
+.div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+.div img {
+    width: 288px;
+    height: 199px;
+    border-radius: 7px;
+    filter: brightness(40%);
+}
+
+.footer {
+    margin-top: 130px;
+    width: 1350px;
+    height: 487px;
+    background: #16103F;
+}

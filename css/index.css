@@ -49,7 +49,7 @@ header {
     margin-left: 570px;
 }
 
-button {
+.btn-blue {
     border: none;
     border-radius: 32px;
     width: 200px;
@@ -61,7 +61,6 @@ button {
     color: white;
     font-weight: 700;
     text-decoration: none;
-    text-align: center;
 }
 
 .info h2 {
@@ -119,6 +118,7 @@ button {
     padding-left: 15px;
     color: white;
     font-weight: 700;
+    font-size: 14px;
 }
 .programming {
     display: flex;
@@ -132,6 +132,76 @@ button {
     display: flex;
     align-items: center;
 }
+.card img {
+    height: 132px;
+    width: 288px;
+    border-radius: 10px;
+    filter: brightness(40%);
+}
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.card p{
+    text-align: left;
+    padding-left: 10px;
+    font-size: 12px;
+}
+.card h3 {
+    text-align: left;
+    padding-left: 15px;
+    font-weight: 900;
+}
+.cardweb {
+    height: 378px;
+    width: 288px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.25);
+}
+.cardprog {
+    height: 378px;
+    width: 288px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.25);
+}
+.cardrob {
+    height: 378px;
+    width: 288px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.25);
+}
+.btn-org {
+    border: none;
+    border-radius: 32px;
+    width: 180px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    background: #FFA858;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.47);
+    color: white;
+    font-weight: 700;
+}
+
+.projek {
+    margin-top: 25px;
+}
+.projek h3 {
+    font-size: 24px;
+    font-weight: 800;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.projek p {
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
 
 
 
